@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        font-family: Verdana,sans-serif;
+        text-align: center;   
+        align-content: center;  
+        background-clip: border-box;
+        text-decoration: none;
+}
+        
+nav{
+        margin-top: 20px;
+        padding-top:10px ;
+        height: 6vh;
+        display: flex;
+        align-content: center;
+        background-color: rgb(173, 173, 212);
+}
+    
+nav li{
+        display: inline-block;
+        /* margin-top: 10px; */
+        list-style-type: none;
+      
+}
+   
+nav li a{
+        color: rgb(25, 25, 141);
+        text-decoration: none;
+        text-transform: none;
+        transition: 0.2s ease-in;
+        margin: 30px;
+        padding-right: 5px;
+        padding-left: 5px;
+}
+      
+nav li a:hover, a:active{
+        color: white;
+        padding: 5px;
+        border-radius: 2px;
+        background-color: #537e7e;
+}
+  
+.active{
+        color: white;
+        padding: 5px;
+        border-radius: 2px;
+        background-color: #537e7e;
+}
+
+.two_columns{
+        display: inline-flex;
+        margin: 50px;
+}
+    </style>
+</head>
+<body>
+    
+   <nav>
+    <ul>
+        <li><a href="Homepage.html" >Home</a></li>
+        <li><a href="" >Missions</a></li>
+        <li><a href="Chandrayan2.html">Chandrayan 2</a></li>
+        <li><a href="About.html"  class="active">About</a></li>
+    </ul>
+</nav> 
+</body>
+</html>

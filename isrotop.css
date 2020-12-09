@@ -1,0 +1,152 @@
+*{
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+    font-family: Verdana,sans-serif;
+    background-clip: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.govind {
+	color: #333333;
+	text-decoration: none;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 11px;
+	position: relative;
+	left: 30pxpx;
+	top: 2px;
+}
+.govind:hover{
+	color: red;
+}
+.linkskip{
+	float: right;
+	color: #333333;
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 16px;
+	position: relative;
+	top: 4px;
+	right: 213px;
+}
+.linkskip:hover{
+	color: red;
+}
+.image2{ 	
+    float: right;
+	position: relative;
+	left: 105px;
+}
+.image1{ 	
+    float: right;
+	position: relative;
+	right: 115px;
+	top: 5px;
+}
+.home {
+	text-decoration: none;
+	color: #333333;
+	font-family: Helvetica;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	left: 39px;
+}
+.home:hover {
+	color:skyblue;
+}
+.job {
+	text-decoration: none;
+	float: left;
+	position: relative;
+	top: 25px;
+}
+.joblook{
+	color:white; 
+	background-color:red;
+}
+
+.joblook:hover {
+	background-color:green;
+}
+
+.logo{
+    height: 150px;
+	float: center;
+	position: relative;
+	top: 4px;
+    /* right: 0px; */
+    left: 0px;
+}
+.searchbox{
+	float: right;
+	padding: 5px 8px;
+	position: relative;
+	display: block;
+	height: 20px;
+	width: 205px;
+	bottom: 95px;
+	right: 200px;
+}
+.marker {
+    unicode-bidi: isolate;
+    text-transform: none;
+	position: relative;
+	bottom: 70px;
+	right: 135px;
+}
+.lang {
+	font-size: 11px;
+	text-decoration: none;
+	color: #333333;
+	font-family: Helvetica;
+	float: right;
+}
+.lang1 {
+	font-size: 11px;
+	text-decoration: none;
+	color: #333333;
+	font-family: Helvetica;
+	float: right;
+}
+.lang1:hover {
+	color:blue;
+}
+.lang2 {
+	font-size: 11px;
+	text-decoration: none;
+	color: orange;
+	font-family: Helvetica;
+	float: right;
+	position: relative;
+	right: 10px;
+}
+.lang2:hover {
+	color:red;
+}
+.home-name {
+	/* padding-right: 100px; */
+	text-decoration: none;
+	color: #333333;
+	font-family: montserrat;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+    left: 10px;
+    margin-bottom:20px ;
+}
+.home-name:hover {
+	color: darkblue;
+}
+
+.three_img{
+	padding-left:300px ;
+    /* padding-right:00px ; */
+    margin-top:0px ;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>ISRO - Government of India</title>
+            <link rel="stylesheet" href="Homepage.css">
+            <link rel="stylesheet" href="isrotop.css">
+        <style>
+            footer a{
+                text-align: left;
+                text-decoration: none;
+                color: rgb(235, 222, 222);
+             }
+
+            .orange{
+                background-color: rgb(218, 149, 58);
+                /*padding-bottom: 10px;*/
+                padding-top: 18px;
+                width: 100%;
+                height: 60px;
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+            .blue_show{
+                width: 100%;
+                height: 25px;
+                position: relative;
+                color: white;
+                padding: 2px;
+                background-color: blue;
+                animation-name: wordanimation;
+                animation-duration: 10s;
+                animation-delay: 1s;
+                animation-timing-function: linear;
+                overflow: hidden;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes wordanimation {
+                from {
+                    backface-visibility: visible;
+                    left: 0px;
+                    overflow: hidden;
+                    background-color: blue;
+                 }
+                to {
+                    left: 100%;
+                    overflow: hidden;
+                    background-color: blue;
+                  }
+
+            }
+     
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+        </style>
+
+</head>
+
+        <body>       
+            
+    <header>
+                
+    <title> About ISRO - ISRO   </title>
+
+    <!-- <link rel="stylesheet" href="D:\Programming\HTML, CSS, JS\ISRO Project\About ISRO.css"> -->
+    <link rel="icon" href="https://www.isro.gov.in/sites/default/files/ISRO%20Logo.png" type="image/icon png">
+ 
+    <!-- here will be the government of india website -->
+    
+    <div>
+    <a class="govind" href="http://india.gov.in/" title="Exteral website that opens in a new window">
+    G O V E R N M E N T &nbsp; O F &nbsp; I N D I A
+    </a>
+    <a class="linkskip" href="http://www.isro.com/about-isro" title="Skip to main content">
+    Skip to main content
+    </a>
+    
+    <div class="image2">
+    
+    <div class="image1">
+    <img title="Font Decrease" alt="A- Decrease" src="https://www.isro.gov.in/sites/default/files/a-_decrease.png" width="16" height="14" onclick="document.body.style.transform = 'scale(0.8)';document.body.style.transformOrigin = '0 0';">
+    <img title="Font Normal" alt="A Normal" src="https://www.isro.gov.in/sites/default/files/a_normal.png" width="12" height="16" onclick="document.body.style.transform = 'scale(1)';document.body.style.transformOrigin = '0 0';">
+    <img title="Font Increase" alt="A+ Increase" src="https://www.isro.gov.in/sites/default/files/a_increase.png" width="16" height="12" onclick="document.body.style.transform = 'scale(1.2)';document.body.style.transformOrigin = '0 0';">
+    </div>
+    
+    <a title="Facebook - Exteral website that opens in a new window" href="http://www.facebook.com/isro">
+    <img alt="FB page" src="https://www.isro.gov.in/sites/default/files/fb-icon.png" width="28" height="28"></a>
+    <a title="Twitter - Exteral website that opens in a new window" href="http://www.twitter.com/isro">
+    <img alt="Twitter page" src="https://www.isro.gov.in/sites/default/files/twitter-icon.png" width="28" height="28">
+    </a>
+    </div>
+    
+    </div>
+    
+    <div>
+    
+    <div class="home">
+    <a class="home" href="http://www.isro.gov.in">
+
+    </a>
+    </div>
+    <div>
+    <div class="job">
+    <h4>
+    <a class="job" href="https://www.isro.gov.in/update/20-feb-2020/public-notice">
+    <span class="joblook">
+    PUBLIC NOTICE - ATTENTION : JOB ASPIRANTS
+    </span>
+    </a>
+    </h4>
+    </div>
+    <div class="logo">
+      <div class="three_img">
+    <img alt="Mahatma gandhi" src="https://www.isro.gov.in/sites/default/files/mahatma_gandhi_150.png" width="95" height="95">
+    <a title="Government of India" href="http://www.india.gov.in">
+    <img alt="Government of India" src="https://www.isro.gov.in/sites/default/files/govofindia-logo.jpg" width="95" height="115"></a>
+    <a title="ISRO Home" href="http://www.isro.gov.in">
+    <img alt="ISRO Logo" src="https://www.isro.gov.in/sites/default/files/isro_logo.jpg" width="95" height="95">
+    </a>
+  </div>
+    
+    <div>
+    
+    <div>
+    <input title="Enter the term you wish to search for." type="text" class="searchbox" placeholder="Search...">
+    </div>
+    
+    <div class="lang">
+    
+    <ul>
+    <li class="marker">
+    <a class="lang1" xml:lang="en" lang="en" title="About ISRO" href="http://www.isro.gov.in/about-isro">
+    English
+    </a>
+    </li>
+    </ul>
+    
+    <ul>
+    <li class="marker">
+    <a class="lang2" xml:lang="hi" lang="hi" title="इसरो  के बारे मे " href="https://www.isro.gov.in/hi/%E0%A4%87%E0%A4%B8%E0%A4%B0%E0%A5%8B-%E0%A4%95%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87-%E0%A4%AE%E0%A5%87%E0%A4%82">
+    हिन्दी 
+    </a>
+    </li>
+    </ul>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    <div class="home-name">
+    <h5>
+    <a class="home-name" href="http://www.isro.gov.in">
+    Department of Space, Indian Space Research Organisation
+    </a>
+    </h5>
+    </div>
+    
+    </div>
+    
+    <!-- <div style="background-color:orange;"> -->
+    <!-- <marquee behavior="scroll" direction="left" onmouseout="this.start();" onmouseover="this.stop();"> -->
+    <!-- <h5>
+    <a style="text-decoration:none;" href="https://www.isro.gov.in/about-isro" title=" HSFC RECRUITMENT - AS THE COVID-19 PANDEMIC SITUATION STILL PREVAILS,THE FRESH DATES FOR CONDUCT OF WRITTEN EXAMINATION HAVE NOT BEEN FINALIZED. ONCE FINALIZED,THE SAME WILL BE INTIMATED TO THE CANDIDATES THROUGH THEIR REGISTERED E-MAILS AND ISRO WEBSITE." class="text-color-theme">
+    <span style="color:white; background-color:blue;">
+    HSFC RECRUITMENT - AS THE COVID-19 PANDEMIC SITUATION STILL PREVAILS, THE FRESH DATES FOR CONDUCT OF WRITTEN EXAMINATION HAVE NOT BEEN FINALIZED. ONCE FINALIZED, THE SAME WILL BE INTIMATED TO THE CANDIDATES THROUGH THEIR REGISTERED E-MAILS AND ISRO WEBSITE.
+    </span>
+    </a>
+    </h5> -->
+    </marquee>
+    </div>
+     </header>
+            <div class="orange">
+            <div class="blue_show">HSFC RECRUITMENT - AS THE COVID-19 PANDEMIC SITUATION STILL PREVAILS, THE FRESH DATES FOR CONDUCT OF WRITTEN EXAMINATION HAVE NOT BEEN FINALIZED. ONCE FINALIZED, THE SAME WILL BE INTIMATED TO THE CANDIDATES THROUGH THEIR REGISTERED E-MAILS AND ISRO WEBSITE.</div>
+            </div> 
+               <nav>
+                    <ul>
+                        <li><a href="" class="active1">Home</a></li>
+                        <li><a href="Mission.html">Missions</a></li>
+                        <li><a href="Chandrayan2.html">Chandrayan 2</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+           
+             <article>
+              <div class="slide_show_con">
+                    
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="https://www.isro.gov.in/sites/default/files/d5.jpg" style="width:100%; height: 500px;background-size: cover;">
+    <!-- <div class="text">Caption Two</div> -->
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="https://www.isro.gov.in/sites/default/files/mom.jpg" style="width:100%;  height: 500px; background-size: cover;">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div> 
+    
+  </div>
+                <div class="paragraphs">
+                    <div class="first">
+
+                        <div class="first_img">
+                        <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/2.jpg?itok=RQzp5AQo"
+                            width="100%"><br><br><br>
+                        <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/12.jpg?itok=5hxgyTF1" width="100%"><br><br>
+                           <br>
+                        <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/tile11.jpg?itok=MQ63Pry8" width="100%"><br><br>
+                           <br>
+                        </div>
+
+                        <div class="text-center">
+                        <div class="bold">
+                            <b>Story of the Week : Effects of the<br> global dust storm on the Mars<br> upper
+                            atmosphere as observed <br>by the Mars Orbiter Mission</b><br><br>
+                        </div>
+                            Terrestrial planets in the solar system are constantly losing their atmospheres to 
+                            outer space. The rate at which this loss happens is determined mainly by the size of
+                            a planet and temperature of its upper atmosphere. Mars, being a relatively smaller planet 
+                            compared to Earth, is losing its atmosphere at a faster rate. This loss rate, however,
+                            is altered by the changes in the upper atmospheric temperature.<br><br><br>
+                        </div>
+                        <button class="read_more">Read More</button>
+                    </div>
+                    
+                
+
+                    <div class="second">
+                      <div class="second_img">
+                            <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/geoportal.jpg?itok=iyppVzcz" width="100%"><br><br><br>
+                            <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/navic.png?itok=kcbMp7lh" width="100%"><br><br><br>
+                            <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/astrosat_tile_ao_0_1.jpg?itok=sf2RkHQo" width="100%"><br><br><br>
+                      </div>
+                        <div class="bold"><b>Timeline</b><br><br></div>
+                        Comprehensive timeline of ISRO's journey through decades.<br><br>
+                        <img src="https://www.isro.gov.in/sites/default/files/home/timeline-teaser.png" alt="Comprehensive timeline of ISRO's journey through decades." style="border: none; box-shadow: none; width: 200px; height: 200px">
+                    </div>
+            
+                    
+                    <div class="third">
+                        <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/cbpo_logo_revised_0.png?itok=GYeNgqHR" width="100%"><br><br><br>
+                        <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/space_applications.jpg?itok=gtKxTpKR" width="100%"><br><br><br>
+                        <img src="https://www.isro.gov.in/sites/default/files/styles/portfolio-thumbnail/public/portfolio/dumdum.jpg?itok=dk7xUtRU" width="100%"><br><br><br>
+                            <div class="bold"> <b>Updates</b><br><br> </div>
+                        <b>Nov 05, 2020 :</b> MOM- MENCA Data from 24th Sep 2017 to 23rd Sep 2019 is released<br><br>
+                        <b>Oct 19, 2020 :</b> Technology Transfer MoU signed between DOS and NSIL<br><br>
+                        <b>Oct 05, 2020 :</b> Prof. Satish Dhawan Birth Centenary Programme at ISRO HQ<br><br>
+                        <b>Oct 02, 2020 :</b> Commemoration of 150th Birth Centenaty Programme ar ISRO HQ<br><br>
+                        <b>Sep 29, 2020 :</b> Valedictory function of Vikram Sarabhai Centrnary Programme<br><br>
+                            <br>
+                        <button class="read_more">Read More</button>
+                    </div>
+                </div>
+    
+
+                </div>
+                <div class="last_logo">
+                    <img src="https://images.pexels.com/photos/2919587/pexels-photo-2919587.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="bottom">
+                    <div class="text_on">
+                       <img src="https://www.isro.gov.in/sites/default/files/home/ISRO%20Logo.png" style="width: 100px;">
+                      Our vision is to harness space technology for national development, 
+                      while pursuing space science research and planetary exploration.
+                    </div>
+                </div>
+            </article>
+            <footer>
+                <br>
+             <div class="vertical_row">   
+                 <div class="first_column">
+                    <ul class="lists">
+                        <li><a href="https://www.isro.gov.in/careers-new">Careers</a></li>
+                        <li><a href="https://www.isro.gov.in/publications-0">Publications</a></li>
+                        <li><a href="https://www.isro.gov.in/sites/default/files/flipping_book/annual_report_2019-20_english/index.html">Annual Report</a></li>
+                        <li><a href="https://www.isro.gov.in/tenders">Tender Notices</a></li>
+                        <li><a href="https://eprocure.isro.gov.in/isro/index.asp">E-Procuremnet</a></li>                  
+                        <li><a href="https://www.isro.gov.in/right-to-information">Right to Information</a></li>                        
+                        <li><a href="https://www.isro.gov.in/parliament-questions">Parliament Questions</a></li>
+                        <li><a href="https://www.isro.gov.in/sites/default/files/bilingual_100_sentences.pdf">e-Saral Hindi Vakykosh</a></li>
+                        <li><a href="https://www.isro.gov.in/monthly-summary-of-department-of-space">Monthly Summary of DOS</a></li>
+                    </ul>
+                </div>
+                <div class="second_column">
+                    <ul  class="lists">
+                        <li><a href="https://www.cssteap.org/">CSSTEAP</a></li>
+                        <li><a href="https://www.isro.gov.in/related-links">Related links</a></li>
+                        <li><a href="https://www.isro.gov.in/citizens-charter">Citizen's Chapter</a></li>
+                        <li><a href="https://www.isro.gov.in/indigenisation-of-space-materials-ism-data-sheet">ISM Data Sheets</a></li>
+                        <li><a href="https://www.isro.gov.in/hyperlinking-policy">Hyperlinking Policy</a></li>
+                        <li><a href="https://www.isro.gov.in/indias-space-policy-0">India's Space Policy</a></li>
+                        <li><a href="https://www.isro.gov.in/international-cooperation">International Cooperation</a></li>
+                        <li><a href="https://www.isro.gov.in/about-isro/autonomous-bodies">Autonomous Bodies under DoS</a></li>
+                        <li><a href="https://sa-plan.isro.gov.in/">DOS/ISRO Swachhata Action Plan</a></li>
+                    </ul>
+                </div>
+                <div class="third_column">
+                    <ul class="lists">
+                        <li><a href="https://pib.gov.in/indexd.aspx">PIB</a></li>
+                        <li><a href="https://www.nvsp.in/">National Voter's Service Portal</a></li>
+                        <li><a href="https://services.india.gov.in/">National Government Services Portal</a></li>
+                        <li><a href="http://cpao.nic.in/Pensioner/ppo_status.php">Check Your 7<sup>th</sup> CPC Pension Revision Status</a></li>
+                        <li><a href="https://www.indiacode.nic.in/">India Code <img src="https://www.isro.gov.in/sites/default/files/indiagov_logo.jpg" id="logo"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+
+            <div class="horizontal_row" >
+                <div class="first_one">
+                    <ul>
+                        <li><a href="">Site Map |</a></li>
+                        <li><a href="">Timeline |</a></li>
+                        <li><a href="">FAQ |</a></li>
+                        <li><a href="">Disclaimer |</a></li>
+                        <li><a href="">Careers |</a></li>
+                        <li><a href="">Feedback |</a></li>
+                        <li><a href="">Contact Us |</a></li>
+                        <li><a href="">Help </a></li>
+                    </ul>
+                </div>
+
+                <div class="second_one">
+                   &nbsp; &nbsp; &nbsp; &nbsp; Copyright © 2020 ISRO, All Rights Reserved. 
+                </div>
+            </div>
+                <div class="up_button">
+
+                </div>
+            </footer>
+        </body>
+        <script src="homepage.js"></script>
+    </html>
+
+
+    

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Mission.css">
+    <link rel="stylesheet" href="Slideshow.css">
+    <link rel="stylesheet" href="isrotop.css">
+    <title>Document</title>
+    <style>
+
+                  
+.mySlides {
+    display: none;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  .slideshow-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+    
+          .orange{
+                background-color: rgb(218, 149, 58);
+                /*padding-bottom: 10px;*/
+                padding-top: 18px;
+                width: 100%;
+                height: 60px;
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+            .blue_show{
+                width: 100%;
+                height: 25px;
+                position: relative;
+                color: white;
+                padding: 2px;
+                background-color: blue;
+                animation-name: wordanimation;
+                animation-duration: 10s;
+                animation-delay: 1s;
+                animation-timing-function: linear;
+                overflow: hidden;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes wordanimation {
+                from {
+                    backface-visibility: visible;
+                    left: 0px;
+                    overflow: hidden;
+                    background-color: blue;
+                 }
+                to {
+                    left: 100%;
+                    overflow: hidden;
+                    background-color: blue;
+                  }
+            }
+    </style>
+</head>
+<body>
+
+            
+    <header>
+                
+        <title> About ISRO - ISRO   </title>
+    
+        <!-- <link rel="stylesheet" href="D:\Programming\HTML, CSS, JS\ISRO Project\About ISRO.css"> -->
+        <link rel="icon" href="https://www.isro.gov.in/sites/default/files/ISRO%20Logo.png" type="image/icon png">
+     
+        <!-- here will be the government of india website -->
+        
+        <div>
+        <a class="govind" href="http://india.gov.in/" title="Exteral website that opens in a new window">
+        G O V E R N M E N T &nbsp; O F &nbsp; I N D I A
+        </a>
+        <a class="linkskip" href="http://www.isro.com/about-isro" title="Skip to main content">
+        Skip to main content
+        </a>
+        
+        <div class="image2">
+        
+        <div class="image1">
+        <img title="Font Decrease" alt="A- Decrease" src="https://www.isro.gov.in/sites/default/files/a-_decrease.png" width="16" height="14" onclick="document.body.style.transform = 'scale(0.8)';document.body.style.transformOrigin = '0 0';">
+        <img title="Font Normal" alt="A Normal" src="https://www.isro.gov.in/sites/default/files/a_normal.png" width="12" height="16" onclick="document.body.style.transform = 'scale(1)';document.body.style.transformOrigin = '0 0';">
+        <img title="Font Increase" alt="A+ Increase" src="https://www.isro.gov.in/sites/default/files/a_increase.png" width="16" height="12" onclick="document.body.style.transform = 'scale(1.2)';document.body.style.transformOrigin = '0 0';">
+        </div>
+        
+        <a title="Facebook - Exteral website that opens in a new window" href="http://www.facebook.com/isro">
+        <img alt="FB page" src="https://www.isro.gov.in/sites/default/files/fb-icon.png" width="28" height="28"></a>
+        <a title="Twitter - Exteral website that opens in a new window" href="http://www.twitter.com/isro">
+        <img alt="Twitter page" src="https://www.isro.gov.in/sites/default/files/twitter-icon.png" width="28" height="28">
+        </a>
+        </div>
+        
+        </div>
+        
+        <div>
+        
+        <div class="home">
+        <a class="home" href="http://www.isro.gov.in">
+    
+        </a>
+        </div>
+        <div>
+        <div class="job">
+        <h4>
+        <a class="job" href="https://www.isro.gov.in/update/20-feb-2020/public-notice">
+        <span class="joblook">
+        PUBLIC NOTICE - ATTENTION : JOB ASPIRANTS
+        </span>
+        </a>
+        </h4>
+        </div>
+        <div class="logo">
+          <div class="three_img">
+        <img alt="Mahatma gandhi" src="https://www.isro.gov.in/sites/default/files/mahatma_gandhi_150.png" width="95" height="95">
+        <a title="Government of India" href="http://www.india.gov.in">
+        <img alt="Government of India" src="https://www.isro.gov.in/sites/default/files/govofindia-logo.jpg" width="95" height="115"></a>
+        <a title="ISRO Home" href="http://www.isro.gov.in">
+        <img alt="ISRO Logo" src="https://www.isro.gov.in/sites/default/files/isro_logo.jpg" width="95" height="95">
+        </a>
+      </div>
+        
+        <div>
+        
+        <div>
+        <input title="Enter the term you wish to search for." type="text" class="searchbox" placeholder="Search...">
+        </div>
+        
+        <div class="lang">
+        
+        <ul>
+        <li class="marker">
+        <a class="lang1" xml:lang="en" lang="en" title="About ISRO" href="http://www.isro.gov.in/about-isro">
+        English
+        </a>
+        </li>
+        </ul>
+        
+        <ul>
+        <li class="marker">
+        <a class="lang2" xml:lang="hi" lang="hi" title="इसरो  के बारे मे " href="https://www.isro.gov.in/hi/%E0%A4%87%E0%A4%B8%E0%A4%B0%E0%A5%8B-%E0%A4%95%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87-%E0%A4%AE%E0%A5%87%E0%A4%82">
+        हिन्दी 
+        </a>
+        </li>
+        </ul>
+        
+        </div>
+        
+        </div>
+        
+        </div>
+        
+        </div>
+        
+        <div class="home-name">
+        <h5>
+        <a class="home-name" href="http://www.isro.gov.in">
+        Department of Space, Indian Space Research Organisation
+        </a>
+        </h5>
+        </div>
+        
+        </div>
+        
+        <!-- <div style="background-color:orange;"> -->
+        <!-- <marquee behavior="scroll" direction="left" onmouseout="this.start();" onmouseover="this.stop();"> -->
+        <!-- <h5>
+        <a style="text-decoration:none;" href="https://www.isro.gov.in/about-isro" title=" HSFC RECRUITMENT - AS THE COVID-19 PANDEMIC SITUATION STILL PREVAILS,THE FRESH DATES FOR CONDUCT OF WRITTEN EXAMINATION HAVE NOT BEEN FINALIZED. ONCE FINALIZED,THE SAME WILL BE INTIMATED TO THE CANDIDATES THROUGH THEIR REGISTERED E-MAILS AND ISRO WEBSITE." class="text-color-theme">
+        <span style="color:white; background-color:blue;">
+        HSFC RECRUITMENT - AS THE COVID-19 PANDEMIC SITUATION STILL PREVAILS, THE FRESH DATES FOR CONDUCT OF WRITTEN EXAMINATION HAVE NOT BEEN FINALIZED. ONCE FINALIZED, THE SAME WILL BE INTIMATED TO THE CANDIDATES THROUGH THEIR REGISTERED E-MAILS AND ISRO WEBSITE.
+        </span>
+        </a>
+        </h5> -->
+        </marquee>
+        </div>
+         </header>
+    <div class="orange">
+        <div class="blue_show">HSFC RECRUITMENT - AS THE COVID-19 PANDEMIC SITUATION STILL PREVAILS,
+            THE FRESH DATES FOR CONDUCT OF WRITTEN EXAMINATION HAVE NOT BEEN FINALIZED. ONCE FINALIZED,
+            THE SAME WILL BE INTIMATED TO THE CANDIDATES THROUGH THEIR REGISTERED E-MAILS AND ISRO
+            WEBSITE.
+        </div>
+    </div>
+   <nav>
+        <ul>
+            <li><a href="Homepage.html" >Home</a></li>
+            <li><a href=""  class="active">Missions</a></li>
+            <li><a href="Chandrayan2.html">Chandrayan 2</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav> 
+   <h1 style="margin-top:20px; font-family: sans-serif;">Missions</h1>
+   <div class="two_columns">
+       <div class="first_column" style="  text-align: justify;">
+           <span class="heads"><h3>Trending</h3></span>
+           <ul>
+               <li><a href="https://www.isro.gov.in/pslv-c25-mars-orbiter-mission" target="_blank">Mars Orbiter Mission</a></li>
+               <li><a href="https://www.isro.gov.in/launchers/lvm3-x-care" target="_blank">LVM3-X (CARE)</a></li>
+               <li><a href="https://www.isro.gov.in/astrosat-0" target="_blank">AstroSat</a></li>
+           </ul>
+       </div>
+       <div class="second_column">
+           <span class="heads"><h3>Latest Missions</h3></span>
+           <ul>
+                <li><a href="https://www.isro.gov.in/launcher/pslv-c48-risat-2br1" target="_blank">PSLV-C48/ RISAT-2BR1</a></li>
+                <li><a href="https://www.isro.gov.in/launcher/pslv-c49-eos-01" target="_blank">PSLV-C49/EOS-01</a></li>
+                <li><a href="https://www.isro.gov.in/Spacecraft/gsat-30" target="_blank">GSAT-30</a></li>
+            </ul>
+        </div>
+   </div>
+
+   	
+<div>
+    <ul class="tilesWrap" >
+        <li class="listtile" style="max-height: 40vh; min-height: 35vh;">
+            <a class="tilelinks" href="https://www.isro.gov.in/sites/default/files/article-files/missions/269_foreign_satellites.pdf">
+            <h2 class="tilehead2">101</h2>
+            <h3 class="tilehead3">101</h3>
+            <p class="info">
+                
+                Spacecraft Missions
+                Including
+                3 Nano Satellites  
+                and 1 Micro Satellite
+            </p>
+        </a>
+        </li>
+        <li class="listtile">
+            <a class="tilelinks" href="https://www.isro.gov.in/spacecraft/list-of-university-academic-institute-satellites">
+            <h2 class="tilehead2">72</h2>
+            <h3 class="tilehead3">72</h3>
+            <p class="info">
+                Launch Missions
+                Including
+                Scramjet-TD 
+                & RLV-TD
+            </p>
+        </a>
+        </li>
+        <li class="listtile" style="min-height: 35vh;">
+            <a class="tilelinks" href="https://www.isro.gov.in/spacecraft/list-of-university-academic-institute-satellites">
+            
+            <h2 class="tilehead2">9</h2>
+            <h3 class="tilehead3">9</h3>
+            <p style="color:black"></p>
+                Student
+                Satellites
+            </p>
+        </a>
+        </li>
+        <li class="listtile" style="min-height: 35vh;" >
+            <a class="tilelinks" href="https://www.isro.gov.in/sites/default/files/article-files/missions/269_foreign_satellites.pdf">
+            <h2 class="tilehead2">2</h2>
+            <h3 class="tilehead3">2</h3>
+            <p style="color:black;">
+                Re-entry
+                Missions
+    
+            </p>
+        </a>
+        </li>
+        <li class="listtile" style="min-height: 35vh;">
+            <a class="tilelinks" href="https://www.isro.gov.in/sites/default/files/article-files/missions/269_foreign_satellites.pdf">
+            <h2 class="tilehead2">269</h2>
+            <h3 class="tilehead3">269</h3>
+            <p style="color:black;">
+                Foreign Satellites
+                of 32 Countries
+    
+            </p>
+        </a>
+        </li>
+    </ul>
+    </div>
+   <div class="drop_down">
+       <div class="A"> A </div>
+       <div class="B"> B </div>
+       <div class="C"> C </div>
+       <div class="E"> E </div>
+       <div class="G"> G </div>
+       <div class="H"> H </div>
+       <div class="I"> I </div>
+       <div class="J"> J </div>
+       <div class="K"> K </div>
+       <div class="L"> L </div>
+       <div class="M"> M </div>
+       <div class="N"> N </div>
+       <div class="O"> O </div>
+       <div class="P"> P </div>
+       <div class="R"> R </div>
+       <div class="S"> S </div> 
+       <div class="T"> T </div> 
+       <div class="Y"> Y </div>
+   </div>
+
+   
+   <div class="drop_down_info">
+         <div class="1" >
+             <li><a href="https://www.isro.gov.in/launcher/aslv-d4" target="_blank">ASLV-D4</a></li>
+             <li><a href="https://www.isro.gov.in/launcher/aslv-d3" target="_blank">ASLV-D3</a></li>
+             <li><a href="https://www.isro.gov.in/launcher/aslv-d2" target="_blank">ASLV-D2</a></li>
+             <li><a href="https://www.isro.gov.in/launcher/aslv-d1" target="_blank">ASLV-D1</a></li>
+             <li><a href="https://www.isro.gov.in/Spacecraft/apple" target="_blank">APPLE</a></li>
+             <li><a href="https://www.isro.gov.in/Spacecraft/astrosat" target="_blank">Astrosat</a></li>
+             <li><a href="https://www.isro.gov.in/Spacecraft/anusat-1" target="_blank">ANUSAT</a></li>
+             <li><a href="https://www.isro.gov.in/Spacecraft/aryabhata-1" target="_blank">Aryabhata</a></li>
+        </div>
+
+       <div class="2">
+           <li><a href="https://www.isro.gov.in/Spacecraft/bhaskara-ii" target="_blank">Bhaskara-II</a></li>
+           <li><a href="https://www.isro.gov.in/earth-observation/bhuvan-bhujal" target="_blank">Bhuvan Bhujal</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/bhaskara-i" target="_blank">Bhaskara-I</a></li>
+       </div>
+
+       <div class="3">
+           <li><a href="https://www.isro.gov.in/Spacecraft/cartosat-1" target="_blank">CARTOSAT-1</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/cartosat-2-series-satellite" target="_blank">CARTOSAT-2 Series Satellite</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/chandrayaan2" target="_blank">Chandrayan 2</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/chandrayaan-1" target="_blank">Chandrayan 1</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/cartosat-2-series-satellite-1" target="_blank">Cartosart -2 Series Sattellite</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/cartosat-%E2%80%93-2a" target="_blank">CARTOSAT - 2A</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/crew-module-atmospheric-re-entry-experiment-care" target="_blank">CARE</a></li>
+           <li><a href="https://www.isro.gov.in/Spacecraft/cartosat-3" target="_blank">Cartosart</a></li>
+       </div>
+
+       <div class="4" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="5" style="display: none;">
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>     
+       </div>
+
+       <div class="6" style="display: none;">
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="7" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="8" style="display: none;">
+           <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="9" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+        </div>
+
+       <div class="10" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+        </div>
+
+        <div class="11" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+        </div>         
+    
+       <div class="12" style="display: none;">
+             <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="13" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="14" style="display: none;">
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="15" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+       </div>
+       
+       <div class="16" style="display: none;">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="17" style="display: none;">
+          <li><a href="" target="_blank"></a></li>
+       </div>
+
+       <div class="18" style="display: none;">
+          <li><a href="" target="_blank"></a></li>
+       </div>
+
+   </div>
+
+   
+   <div class="slide_show_con">
+                    
+    <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="https://www.isro.gov.in/sites/default/files/d5.jpg" style="width:100%; height: 500px;background-size: cover;">
+        <!-- <div class="text">Caption Two</div> -->
+        </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="https://www.isro.gov.in/sites/default/files/mom.jpg" style="width:100%;  height: 500px; background-size: cover;">
+        <!-- <div class="text">Caption Three</div> -->
+      </div>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div> 
+        
+      </div>
+    
+      <footer style="color: white; text-decoration: none;">
+        <br>
+     <div class="vr">   
+         <div class="f_column">
+            <ul class="lists">
+                <li><a href="https://www.isro.gov.in/careers-new">Careers</a></li>
+                <li><a href="https://www.isro.gov.in/publications-0">Publications</a></li>
+                <li><a href="https://www.isro.gov.in/sites/default/files/flipping_book/annual_report_2019-20_english/index.html">Annual Report</a></li>
+                <li><a href="https://www.isro.gov.in/tenders">Tender Notices</a></li>
+                <li><a href="https://eprocure.isro.gov.in/isro/index.asp">E-Procuremnet</a></li>                  
+                <li><a href="https://www.isro.gov.in/right-to-information">Right to Information</a></li>                        
+                <li><a href="https://www.isro.gov.in/parliament-questions">Parliament Questions</a></li>
+                <li><a href="https://www.isro.gov.in/sites/default/files/bilingual_100_sentences.pdf">e-Saral Hindi Vakykosh</a></li>
+                <li><a href="https://www.isro.gov.in/monthly-summary-of-department-of-space">Monthly Summary of DOS</a></li>
+            </ul>
+        </div>
+        <div class="s_column">
+            <ul  class="lists">
+                <li><a href="https://www.cssteap.org/">CSSTEAP</a></li>
+                <li><a href="https://www.isro.gov.in/related-links">Related links</a></li>
+                <li><a href="https://www.isro.gov.in/citizens-charter">Citizen's Chapter</a></li>
+                <li><a href="https://www.isro.gov.in/indigenisation-of-space-materials-ism-data-sheet">ISM Data Sheets</a></li>
+                <li><a href="https://www.isro.gov.in/hyperlinking-policy">Hyperlinking Policy</a></li>
+                <li><a href="https://www.isro.gov.in/indias-space-policy-0">India's Space Policy</a></li>
+                <li><a href="https://www.isro.gov.in/international-cooperation">International Cooperation</a></li>
+                <li><a href="https://www.isro.gov.in/about-isro/autonomous-bodies">Autonomous Bodies under DoS</a></li>
+                <li><a href="https://sa-plan.isro.gov.in/">DOS/ISRO Swachhata Action Plan</a></li>
+            </ul>
+        </div>
+        <div class="t_column">
+            <ul class="lists">
+                <li><a href="https://pib.gov.in/indexd.aspx">PIB</a></li>
+                <li><a href="https://www.nvsp.in/">National Voter's Service Portal</a></li>
+                <li><a href="https://services.india.gov.in/">National Government Services Portal</a></li>
+                <li><a href="http://cpao.nic.in/Pensioner/ppo_status.php">Check Your 7<sup>th</sup> CPC Pension Revision Status</a></li>
+                <li><a href="https://www.indiacode.nic.in/">India Code <img src="https://www.isro.gov.in/sites/default/files/indiagov_logo.jpg" id="logo"></a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <div class="horizontal_row" >
+        <div class="first_one">
+            <ul>
+                <li><a href="">Site Map |</a></li>
+                <li><a href="">Timeline |</a></li>
+                <li><a href="">FAQ |</a></li>
+                <li><a href="">Disclaimer |</a></li>
+                <li><a href="">Careers |</a></li>
+                <li><a href="">Feedback |</a></li>
+                <li><a href="">Contact Us |</a></li>
+                <li><a href="">Help </a></li>
+            </ul>
+        </div>
+
+        <div class="second_one">
+           &nbsp; &nbsp; &nbsp; &nbsp; Copyright © 2020 ISRO, All Rights Reserved. 
+        </div>
+    </div>
+   <script>
+      
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+  box-sizing: border-box;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  text-align: center;   
+  align-content: center;  
+  background-clip: border-box;
+  text-decoration: none;
+  background: black;
+  font-family:  Verdana,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: justify;
+  letter-spacing: .1em
+}
+
+
+nav {
+  height: 6vh;
+  padding-left: 350px;
+  display: flex;
+  align-content: center;
+  margin-bottom: 20px;
+  background-color: rgb(173, 173, 212);
+}
+
+nav li  {
+  padding-bottom: 10px;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+nav li a{
+  /* padding-bottom: 10px; */
+  color: rgb(25, 25, 141);
+  text-decoration: none;
+  text-transform: none;
+  transition: 0.2s ease-in;
+  margin: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+nav li a:hover, a:active{
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  background-color: #537e7e;
+}
+ 
+.active{
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  color: white;
+  background-color: #537e7e;
+}
+
+b{
+  display: block;
+  color:white;
+  text-decoration: none;
+  position: relative;
+}
+
+b::after{
+  content: "";
+  background:white;
+	mix-blend-mode: exclusion;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+b:hover::after{
+	height: calc(100% + 8px)
+}
+
+/* The End */
+
+.note{
+  top: auto;
+  bottom: 0;
+  color: #ddd;
+  font-size: 13px;
+  text-transform: none;
+  font-weight: 300;
+  text-align: justify;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+/*p{
+  text-shadow: 1.5px 1.5px #BFC9CA;
+}
+h1{
+  text-shadow: 3.5px 3.5px #A9CCE3;
+}
+i{
+  text-shadow: 3.5px 3.5px #A9CCE3;
+}
+em{
+  text-shadow: 3.5px 3.5px #F8C471 ;
+}
+*/
